@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		B04F888E2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F888D2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift */; };
-		B04F88902A0AB218007ECB63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F888F2A0AB218007ECB63 /* ContentView.swift */; };
+		B04F88902A0AB218007ECB63 /* DRVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F888F2A0AB218007ECB63 /* DRVView.swift */; };
 		B04F88922A0AB219007ECB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04F88912A0AB219007ECB63 /* Assets.xcassets */; };
 		B04F88952A0AB219007ECB63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04F88942A0AB219007ECB63 /* Preview Assets.xcassets */; };
+		B04F889D2A0ADEA4007ECB63 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B04F889C2A0ADEA4007ECB63 /* .gitignore */; };
+		B04F889F2A0ADEB8007ECB63 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B04F889E2A0ADEB8007ECB63 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B04F888A2A0AB218007ECB63 /* DiscreteRandomVariable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscreteRandomVariable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04F888D2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscreteRandomVariableApp.swift; sourceTree = "<group>"; };
-		B04F888F2A0AB218007ECB63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B04F888F2A0AB218007ECB63 /* DRVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRVView.swift; sourceTree = "<group>"; };
 		B04F88912A0AB219007ECB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B04F88942A0AB219007ECB63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B04F88962A0AB219007ECB63 /* DiscreteRandomVariable.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DiscreteRandomVariable.entitlements; sourceTree = "<group>"; };
+		B04F889C2A0ADEA4007ECB63 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B04F889E2A0ADEB8007ECB63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		B04F88812A0AB218007ECB63 = {
 			isa = PBXGroup;
 			children = (
+				B04F889C2A0ADEA4007ECB63 /* .gitignore */,
+				B04F889E2A0ADEB8007ECB63 /* README.md */,
 				B04F888C2A0AB218007ECB63 /* DiscreteRandomVariable */,
 				B04F888B2A0AB218007ECB63 /* Products */,
 			);
@@ -53,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				B04F888D2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift */,
-				B04F888F2A0AB218007ECB63 /* ContentView.swift */,
+				B04F888F2A0AB218007ECB63 /* DRVView.swift */,
 				B04F88912A0AB219007ECB63 /* Assets.xcassets */,
 				B04F88962A0AB219007ECB63 /* DiscreteRandomVariable.entitlements */,
 				B04F88932A0AB219007ECB63 /* Preview Content */,
@@ -128,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04F88952A0AB219007ECB63 /* Preview Assets.xcassets in Resources */,
+				B04F889D2A0ADEA4007ECB63 /* .gitignore in Resources */,
+				B04F889F2A0ADEB8007ECB63 /* README.md in Resources */,
 				B04F88922A0AB219007ECB63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B04F88902A0AB218007ECB63 /* ContentView.swift in Sources */,
+				B04F88902A0AB218007ECB63 /* DRVView.swift in Sources */,
 				B04F888E2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

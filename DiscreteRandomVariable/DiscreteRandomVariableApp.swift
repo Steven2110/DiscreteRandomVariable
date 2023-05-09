@@ -11,7 +11,7 @@ import SwiftUI
 struct DiscreteRandomVariableApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DRVView()
         }
     }
 }
