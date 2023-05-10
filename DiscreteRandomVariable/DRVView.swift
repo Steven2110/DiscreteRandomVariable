@@ -66,11 +66,11 @@ struct DRVView: View {
                 HStack {
                     VStack(alignment: .leading) {
                         Text("Average: \(vm.mean, specifier: "%.3f")")
-                        Text("Error: \(vm.meanError, specifier: "%.3f")")
+                        Text("Error: \(vm.meanError, specifier: "%.3f") %")
                     }
                     VStack(alignment: .leading) {
                         Text("Variance: \(vm.variance, specifier: "%.3f")")
-                        Text("Error: \(vm.varianceError, specifier: "%.3f")")
+                        Text("Error: \(vm.varianceError, specifier: "%.3f") %")
                     }
                     Text("Chi square: \(vm.chiSquare, specifier: "%.3f") \(vm.chiSquare > 9.488 ? ">" : "<") 9.488")
                 }.padding()
