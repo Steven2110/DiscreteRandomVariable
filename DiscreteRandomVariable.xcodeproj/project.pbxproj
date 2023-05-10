@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		B003F5C62A0AE2FB001089A7 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B003F5C52A0AE2FB001089A7 /* Event.swift */; };
 		B003F5C82A0AE535001089A7 /* DRVEventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B003F5C72A0AE535001089A7 /* DRVEventViewModel.swift */; };
+		B003F5CE2A0BD5D1001089A7 /* N100.png in Resources */ = {isa = PBXBuildFile; fileRef = B003F5CA2A0BD5D1001089A7 /* N100.png */; };
+		B003F5CF2A0BD5D1001089A7 /* N10.png in Resources */ = {isa = PBXBuildFile; fileRef = B003F5CB2A0BD5D1001089A7 /* N10.png */; };
+		B003F5D02A0BD5D1001089A7 /* N1000.png in Resources */ = {isa = PBXBuildFile; fileRef = B003F5CC2A0BD5D1001089A7 /* N1000.png */; };
+		B003F5D12A0BD5D1001089A7 /* N10000.png in Resources */ = {isa = PBXBuildFile; fileRef = B003F5CD2A0BD5D1001089A7 /* N10000.png */; };
 		B04F888E2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F888D2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift */; };
 		B04F88902A0AB218007ECB63 /* DRVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F888F2A0AB218007ECB63 /* DRVView.swift */; };
 		B04F88922A0AB219007ECB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04F88912A0AB219007ECB63 /* Assets.xcassets */; };
@@ -21,6 +25,10 @@
 /* Begin PBXFileReference section */
 		B003F5C52A0AE2FB001089A7 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		B003F5C72A0AE535001089A7 /* DRVEventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRVEventViewModel.swift; sourceTree = "<group>"; };
+		B003F5CA2A0BD5D1001089A7 /* N100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N100.png; sourceTree = "<group>"; };
+		B003F5CB2A0BD5D1001089A7 /* N10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N10.png; sourceTree = "<group>"; };
+		B003F5CC2A0BD5D1001089A7 /* N1000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N1000.png; sourceTree = "<group>"; };
+		B003F5CD2A0BD5D1001089A7 /* N10000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N10000.png; sourceTree = "<group>"; };
 		B04F888A2A0AB218007ECB63 /* DiscreteRandomVariable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscreteRandomVariable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04F888D2A0AB218007ECB63 /* DiscreteRandomVariableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscreteRandomVariableApp.swift; sourceTree = "<group>"; };
 		B04F888F2A0AB218007ECB63 /* DRVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DRVView.swift; sourceTree = "<group>"; };
@@ -43,11 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B003F5C92A0BD47B001089A7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B003F5CB2A0BD5D1001089A7 /* N10.png */,
+				B003F5CA2A0BD5D1001089A7 /* N100.png */,
+				B003F5CC2A0BD5D1001089A7 /* N1000.png */,
+				B003F5CD2A0BD5D1001089A7 /* N10000.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		B04F88812A0AB218007ECB63 = {
 			isa = PBXGroup;
 			children = (
 				B04F889C2A0ADEA4007ECB63 /* .gitignore */,
 				B04F889E2A0ADEB8007ECB63 /* README.md */,
+				B003F5C92A0BD47B001089A7 /* Images */,
 				B04F888C2A0AB218007ECB63 /* DiscreteRandomVariable */,
 				B04F888B2A0AB218007ECB63 /* Products */,
 			);
@@ -144,7 +164,11 @@
 			files = (
 				B04F88952A0AB219007ECB63 /* Preview Assets.xcassets in Resources */,
 				B04F889D2A0ADEA4007ECB63 /* .gitignore in Resources */,
+				B003F5CE2A0BD5D1001089A7 /* N100.png in Resources */,
+				B003F5CF2A0BD5D1001089A7 /* N10.png in Resources */,
+				B003F5D12A0BD5D1001089A7 /* N10000.png in Resources */,
 				B04F889F2A0ADEB8007ECB63 /* README.md in Resources */,
+				B003F5D02A0BD5D1001089A7 /* N1000.png in Resources */,
 				B04F88922A0AB219007ECB63 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
